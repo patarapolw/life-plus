@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "life-plus",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -10,5 +10,8 @@
   "scripts": {
     "start": "git-publisher",
     "deploy": "git-publisher --deploy"
+  },
+  "gitPublisher": {
+    "name": "LifePlus"
   }
 }
